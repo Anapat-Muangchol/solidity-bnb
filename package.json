@@ -4,6 +4,8 @@
   "description": "Example for solidity with binance smart chain (BSC)",
   "main": "index.js",
   "scripts": {
+    "deploy:bsc-testnet": "truffle migrate --reset --network binanceTestnet",
+    "deploy:bsc-prod": "truffle migrate --reset --network bsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anapat Muangchol (Ja' Fom)",
