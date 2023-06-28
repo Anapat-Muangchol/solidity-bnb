@@ -1,0 +1,11 @@
+{
+  "name": "solidity-bsc",
+  "version": "1.0.0",
+  "description": "Example for solidity with binance smart chain (BSC)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anapat Muangchol (Ja' Fom)",
+  "license": "ISC"
+}
