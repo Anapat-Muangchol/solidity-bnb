@@ -11,6 +11,10 @@ $ npm install @truffle/hdwallet-provider
 $ npm install @openzeppelin/contracts
 ```
 
+### Run web server with nginx
+```
+docker run -d -p 9000:80 -v ./web:/usr/share/nginx/html --name my-nginx nginx
+```
 
 ### Ref.
 ```
