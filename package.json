@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy:bsc-testnet": "truffle migrate --reset --network binanceTestnet",
-    "deploy:bsc-prod": "truffle migrate --reset --network bsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy:bsc-prod": "truffle migrate --reset --network bsc"
   },
   "author": "Anapat Muangchol (Ja' Fom)",
   "license": "ISC",
